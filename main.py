@@ -1,15 +1,9 @@
 import requests, sys, urllib, getpass
 from bs4 import BeautifulSoup
-from gmusicapi import Mobileclient
 from fake_useragent import UserAgent
 
 ua = UserAgent()
 headers = {'User-Agent': ua.random}
-found_entries = []
-LoggedIn = False
-
-class RefusedAccess(Exception):
-    pass
 
 def removeDuplicates(songs1,artists1):
     for x in songs1:
