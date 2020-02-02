@@ -15,4 +15,4 @@ once it is finished, copy the list into a file
 https://github.com/SRG27/TuneFindToGMusic
 * **LJ**
 
-message to LJ: i want to thank you for your script, i loved it and it served me well, but this is better for people like me
+message to LJ: i want to thank you for your script, i loved it and it served me well, but this is much better for people who like to store their contents locally 
