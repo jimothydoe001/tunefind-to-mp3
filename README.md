@@ -8,7 +8,9 @@ once it is finished, copy the list into a file
 ```
 ### To Do:
 *save the list to a file
+
 *add a youtube-dl option to download the songs
+
 *add the option to download the mp3 files into different directories that are sorted by season & episode
 
 ## Original Author:
