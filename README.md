@@ -7,11 +7,9 @@ Paste the URL of the tv-show/movie & press enter
 once it is finished, copy the list into a file
 ```
 ### To Do:
-*save the list to a file
-
-*add a youtube-dl option to download the songs
-
-*add the option to download the mp3 files into different directories that are sorted by season & episode
+*save the list to a file <br>
+*add a youtube-dl option to download the songs<br>
+*add the option to download the mp3 files into different directories that are sorted by season & episode<br>
 
 ## Original Author:
 https://github.com/SRG27/TuneFindToGMusic
