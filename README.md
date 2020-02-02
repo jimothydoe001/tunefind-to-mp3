@@ -14,4 +14,4 @@ once it is finished, copy the list into a file
 ## Original Author:
 https://github.com/SRG27/TuneFindToGMusic
 * **LJ**<br>
-message to LJ: i want to thank you for your script, i loved it and it served me well, but this is much better for people who like to store their contents locally 
+message to LJ: i want to thank you for your script, i loved it and it served me well, but this is much better for people who like to store their stuff locally
