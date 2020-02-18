@@ -4,7 +4,7 @@
 $ pip3 install -r requirements.txt
 $ python3 main.py
 Paste the URL of the tv-show/movie & press enter
-once it is finished, the list is saved as a file as the name of the show
+once it is finished, the list is saved as a file in this format [name-of-the-show].txt
 ```
 ### To Do:
 <s>*save the list to a file </s><br>
