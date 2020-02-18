@@ -1,4 +1,4 @@
-import requests, sys, urllib, getpass
+import requests, sys, urllib
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
