@@ -112,6 +112,7 @@ def getTrack(URL, contenttype):
 URL = input("Please enter TuneFind URL of a TV show or movie: ")
 print("This may take a while...")
 
+
 contenttype = URL.split('/')[3]
 
 if contenttype == 'artist' or contenttype == 'movie':
@@ -123,12 +124,14 @@ temp = removeDuplicates(result[0], result[1])
 songs = temp[1]
 artists = temp[0]
 
-print("Got all songs from " + URL.split('/')[4].replace("-", " ").title())
+file=open(URL.split('/')[4] + ".txt", "w")
 
-name = "Songs from " + URL.split('/')[4].replace("-", " ").title()
+print("Got all songs from " + URL.split('/')[4].replace("-", " ").title() + " and saved them in '" + URL.split('/')[4] + ".txt'\n")
 for i in range(len(songs)):
     try:
         print("{} - {}".format(songs[i], artists[i]))
+        file.write("{} - {}".format(songs[i], artists[i]) + "\n")
     except IndexError:
         print("Skipped {} - {}".format(songs[i], artists[i]))
+file.close()
 print("Finished.")
