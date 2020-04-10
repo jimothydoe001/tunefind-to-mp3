@@ -9,6 +9,15 @@ once it is finished, the directory with all the music will be saved in tmp/[name
 * Windows users need to modify line 217 from "mkdir -p" to the Windows equivalent of that command, i'll probably do a version in the future where the OS will automatically be detected but for now the users are going to have to modify it themselves
 
 ```
+### Known bugs
+there might be a bug on some systems that shows this error<br>
+``` http.cookiejar.LoadError: 'tmp/files/cookies.txt' does not look like a Netscape format cookies file ```<br>
+and the only fix i can think of right now, is deleting this part<br>
+
+``` --cookies tmp/files/cookies.txt``` 
+at line 218 from file main.py <br>
+i'll see if i can do anything about it some other time<br>
+
 ### To Do:
 <s>*save the list to a file </s><br>
 <s>*add the youtube-dl feature to download the songs</s><br>
