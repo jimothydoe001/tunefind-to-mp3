@@ -15,7 +15,7 @@ there might be a bug on some systems that shows this error<br>
 and the only fix i can think of right now, is deleting this part<br>
 
 ``` --cookies tmp/files/cookies.txt``` 
-at line 218 from file main.py <br>
+from the line 218 in the main.py file <br>
 i'll see if i can do anything about it some other time<br>
 
 ### To Do:
@@ -29,6 +29,6 @@ https://github.com/SRG27/TuneFindToGMusic
 message to LJ: i want to thank you for your script, i loved it and it served me well, but this is much better
 <br>
 <br>
-https://github.com/joetats/youtube_search
-* **joetats**<br>
+https://github.com/joetats/youtube_search <br>
+* **joetats** <br>
 message to joetats: i wanted to thank you for your script, but i had to modify it a bit so it could better suit my script's needs
