@@ -214,6 +214,6 @@ with open('tmp/files/' + URL.split('/')[4] + '.yt.txt') as f:
         z = json.loads(fofo)
         newtitle = z["tunefind-title"]
         all_ascii = ''.join( c for c in newtitle if c in allowedchars )
-        os.system(("mkdir -p {}").format(URL.split('/')[4]))
+        os.system(("mkdir -p tmp/{}").format(URL.split('/')[4]))
         os.system(("youtube-dl -o tmp/{}/'{}.%(ext)s' --cookies tmp/files/cookies.txt -4 --restrict-filenames -x --audio-format mp3 '{}' ").format(URL.split('/')[4], all_ascii, z["link"]))
 f.close()
